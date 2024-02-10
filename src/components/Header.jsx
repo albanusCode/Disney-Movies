@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from '../assets/Images/logo.png';
+import logo from '../assets/logo.png';
 import { HiPlus, HiDotsVertical } from 'react-icons/hi';
 import {
   HiHome,
