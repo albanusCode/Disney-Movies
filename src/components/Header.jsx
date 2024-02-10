@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from '/assets/Images/logo.png';
+import logo from '../assets/Images/logo.png';
 import { HiPlus, HiDotsVertical } from 'react-icons/hi';
 import {
   HiHome,
@@ -39,7 +39,7 @@ const Header = () => {
     },
   ]
   return (
-    <div className='flex items-center cursor-pointer justify-between px-5 sticky z-50 top-0 bg-[#ffffff] w-[100%]'>
+    <div className='flex items-center cursor-pointer justify-between px-5 sticky z-50 top-0 bg-[#242424] w-[100%]'>
       <div className='flex gap-8 items-center'>
         <img src={logo} className='w-[80px] md:w-[115px] object-cover' alt="" />
         <div className='hidden md:flex gap-8'>
